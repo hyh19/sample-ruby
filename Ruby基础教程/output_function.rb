@@ -16,7 +16,24 @@
 # puts "Hello, Ruby."
 
 # p方法输出不同类型的对象时会区分
-puts "100"
-puts 100
-p "100"
-p 100
+# puts "100"
+# puts 100
+# p "100"
+# p 100
+
+a = 10
+b = 20
+c = 30
+
+print "a=", a, "\n"
+puts "b=", b
+p "c=", c
+
+# 把变量的值嵌入到输出的字符串内
+print "a=#{a}\n"
+puts "b=#{b}"
+p "c=#{c}"
+
+# 字符串内容相同时，返回true，否则返回false
+p "Ruby"=="Ruby"
+p "Ruby"=="Rubyy"
